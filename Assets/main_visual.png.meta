@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a598bf50941fc5147a50f0c7313d9ce5
+guid: 154b3b96f8e464d43bf3c223fb302978
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -36,7 +36,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,24 +144,18 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Triangle
+      name: Square
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: 0.5159559, y: 0.36655065}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 93.70251}
-        - {x: -128, y: -128}
-        - {x: 128, y: -128}
-      physicsShape:
-      - - {x: 0, y: 93.70251}
-        - {x: -128, y: -128}
-        - {x: 128, y: -128}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 2d009a6b596c7d760800000000000000
@@ -185,7 +179,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Triangle: 7482667652216324306
+      Square: 7482667652216324306
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

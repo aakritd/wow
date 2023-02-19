@@ -5,18 +5,20 @@ using UnityEngine;
 public class activate_obstacle : MonoBehaviour
 {
     public GameObject obs;
+    public GameObject source;
     private bool key = false;
     void Start()
     {
         obs.SetActive(false);
     }
-    public void ButtonPressed()
+    public void ButtonPressedObstacle()
     {
         key = !key;
         obs.SetActive(key);         
     }
-    void Update()
+
+    public void ButtonPressedSource()
     {
-        
-    }    
+        source.SetActive(false);
+    } 
 }
